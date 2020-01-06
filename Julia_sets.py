@@ -103,7 +103,7 @@ def color_dict(gradient):
             "b": [RGB[2] for RGB in gradient]}
 
 
-def linear_gradient(start_hex, finish_hex="#FFFFFF", n=10):
+def linear_gradient(start_hex: object, finish_hex: object = "#FFFFFF", n: object = 10) -> object:
     ''' returns a gradient list of (n) colors between
     two hex colors. start_hex and finish_hex
     should be the full six-digit color string,
